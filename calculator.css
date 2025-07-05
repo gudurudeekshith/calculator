@@ -1,0 +1,70 @@
+body{
+    width: 98%;
+    height: 98vh;
+    background: linear-gradient(-45deg, red, green, blue, orange);
+    background-size: 500% 500%;
+    animation: colorFlow 15s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+}
+.heading1{
+    width: 90%;
+    background-color: rgb(253, 240, 97);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-top: 0;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.calculator{
+    width: 350px;
+    padding: 50px;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 50px;
+}
+input{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(226, 222, 222);
+    font-size: 30px;
+    font-weight: 800px;
+    text-align: end;
+}
+::placeholder{
+    color: black;
+    font-weight: 800px;
+}
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: 650px;
+    cursor: pointer;
+}
+.btns{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.btn-col{
+    background-color: orange;
+    color: white;
+}
+.btn-cal:hover{
+    background-color: orange;
+    color: white;
+}
