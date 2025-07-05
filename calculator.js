@@ -26,3 +26,11 @@ function withenter(event)
         clear1();
     }
 }
+function backspace()
+{
+    res.value=res.value.slice(0,-1);
+}
+function percentage()
+{
+    res.value=res.value*0.01;
+}
