@@ -3,7 +3,6 @@ body{
     height: 98vh;
     background: linear-gradient(-45deg, red, green, blue, orange);
     background-size: 500% 500%;
-    animation: colorFlow 15s ease infinite;
     display: flex;
     align-items: center;
     justify-content: center;
